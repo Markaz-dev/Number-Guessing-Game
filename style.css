@@ -1,4 +1,27 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#game {
+  background-color: #00a824;
+  min-height: 100vh;
+}
+#game .box {
+  width: 550px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border-radius: 20px;
+}
+#game .box h1 {
+  font-size: 26px;
+  margin: 12px 0;
+}
+#game .box h2 {
+  font-size: 26px;
+}
+#game .box input {
+  margin: 50px 0;
+  border-bottom: 4px solid #00a824;
 }/*# sourceMappingURL=style.css.map */
