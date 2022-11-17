@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
 }
 #game .box {
-  width: 550px;
+  width: 520px;
   height: 400px;
   background-color: #ffffff;
   margin-top: 110px;
@@ -17,9 +17,28 @@ body {
 #game .box h1 {
   font-size: 26px;
   margin: 12px 0;
+  font-weight: 500;
 }
-#game .box h2 {
+#game .box h3 {
   font-size: 26px;
+  font-weight: 500;
+}
+#game .box h4 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#game .box .btn {
+  border: 1px solid #00a824;
+}
+#game .box .button {
+  background-color: #00a824;
+  padding: 14px 17px;
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 160px;
+}
+#game .box .button h2 {
+  color: #ffffff;
 }
 #game .box input {
   margin: 50px 0;
